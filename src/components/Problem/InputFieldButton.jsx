@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// input filed and button add and show in use state data in display
 const InputFieldButton = () => {
   const [valueText, setValueText] = useState("");
   console.log(valueText);
