@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 
+// live clock use to useState
 const LiveClock = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString());
   useEffect(() => {
